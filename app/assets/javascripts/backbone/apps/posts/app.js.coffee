@@ -2,4 +2,4 @@
   @startWithParent = false
     
   PostsApp.on "start", ->
-    PostsApp.List.Controller.list()
+    PostsApp.Controller.index()
