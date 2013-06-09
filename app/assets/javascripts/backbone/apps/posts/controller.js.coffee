@@ -2,7 +2,7 @@
   PostsApp.Controller =
     index: ->
       @collection = new PostsApp.PostsCollection()
-      @collection.fetch()
+      @collection.fetch(data: page: 1)
 
       view = new PostsApp.Views.Index collection: @collection
       App.mainRegion.show view
