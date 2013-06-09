@@ -2,4 +2,4 @@
   @startWithParent = false
     
   HeaderApp.on "start", ->
-    HeaderApp.Show.Controller.show()
+    HeaderApp.Controller.show()
