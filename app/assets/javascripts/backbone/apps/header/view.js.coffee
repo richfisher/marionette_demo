@@ -1,3 +1,3 @@
-@Demo.module "HeaderApp", (HeaderApp, App, Backbone, Marionette, $, _) ->
-  class HeaderApp.View extends Marionette.ItemView
-    template: "header/templates/header"
+@Demo.module "HeaderApp.Views", (Views, App, Backbone, Marionette, $, _) ->
+  class Views.Show extends Marionette.ItemView
+    template: "header/templates/show"

@@ -1,3 +1,3 @@
-@Demo.module "FooterApp", (FooterApp, App, Backbone, Marionette, $, _) ->
-  class FooterApp.View extends Marionette.ItemView
-    template: "footer/templates/footer"
+@Demo.module "FooterApp.Views", (Views, App, Backbone, Marionette, $, _) ->
+  class Views.Show extends Marionette.ItemView
+    template: "footer/templates/show"

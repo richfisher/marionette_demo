@@ -2,5 +2,5 @@
   
   HeaderApp.Controller =
     show: ->
-      view = new HeaderApp.View
+      view = new HeaderApp.Views.Show
       App.headerRegion.show view
