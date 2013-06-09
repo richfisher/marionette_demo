@@ -7,9 +7,9 @@
 		mainRegion: 	"#main-region"
 	
 	App.addInitializer ->
-		App.module("EventsApp").start()
+		App.module("PostsApp").start()
 	
-	# App.on "initialize:after", (options) ->
-	# 	if Backbone.history
-	# 		Backbone.history.start()
+	App.on "initialize:after", (options) ->
+		if Backbone.history
+			Backbone.history.start()
 	App
