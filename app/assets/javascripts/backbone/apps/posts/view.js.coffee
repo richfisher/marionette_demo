@@ -1,4 +1,4 @@
-@Demo.module "PostsApp.Views", (Views, App, Backbone, Marionette, $, _) ->
+@Demo.module "PostsApp.Views", (Views, PostsApp, Backbone, Marionette, $, _) ->
   
   class Views.Item extends Marionette.ItemView
     template: "posts/templates/_post"
